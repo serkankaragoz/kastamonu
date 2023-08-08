@@ -3,7 +3,7 @@
 
 function HomePage() {
     return (
-        <div>srgrs</div>
+        <div></div>
     );
 }
 

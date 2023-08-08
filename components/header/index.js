@@ -12,7 +12,7 @@ function Header() {
                     <FaTree/> KASTAMONU
                 </Link>
                 <nav className={styles.navigationMenu}>
-                    <Link href='/'>Nature</Link>
+                    <Link href='/'>Gallery</Link>
                 </nav>
             </div>
         </header>
