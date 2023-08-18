@@ -18,60 +18,23 @@ import Image from "next/image";
         </a>
 */
 
-function Gallery() {
+function Gallery({ posts }) {
   return (
     <div>
       <section className={styles.postList}> 
-      <a href="" class={styles.post}>
+
+        {posts.map((post) => (
+          <a href="" class={styles.post}>
             <figure className={styles.postImage}>
               <Image
                 unoptimized
-                src={`https://serkankaragoz.github.io/next-album-deploy/forest/orman_1080p.jpg`}
+                src={post.imagePath}
                 alt="Forest Image"
                 fill
               />
             </figure>
-        </a>
-        <a href="" class={styles.post}>
-            <figure className={styles.postImage}>
-              <Image
-                unoptimized
-                src={`https://serkankaragoz.github.io/next-album-deploy/forest/orman_1080p.jpg`}
-                alt="Yatay kedi"
-                fill
-              />
-            </figure>
-        </a>
-        <a href="" class={styles.post}>
-            <figure className={styles.postImage}>
-              <Image
-                unoptimized
-                src={`https://serkankaragoz.github.io/next-album-deploy/forest/orman_1080p.jpg`}
-                alt="Dikey kedi"
-                fill
-              />
-            </figure>
-        </a>
-        <a href="" class={styles.post}>
-            <figure className={styles.postImage}>
-              <Image
-                unoptimized
-                src={`https://serkankaragoz.github.io/next-album-deploy/forest/orman_1080p.jpg`}
-                alt="Manzara"
-                fill
-              />
-            </figure>
-        </a>
-        <a href="" class={styles.post}>
-            <figure className={styles.postImage}>
-              <Image
-                unoptimized
-                src={`https://serkankaragoz.github.io/next-album-deploy/forest/orman_1080p.jpg`}
-                alt="Yol"
-                fill
-              />
-            </figure>
-        </a>
+          </a>
+        ))}
 
       </section>
     </div>
