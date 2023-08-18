@@ -7,16 +7,17 @@ import Header from "@/components/header/index.js"
 import Footer from "@/components/footer/index.js"
 import BackgroundImage from "@/components/background-image";
 
+import styles from "./styles.module.css";
+
 const interFontFamily = Inter({subsets: ['latin']})
 
 export default function RootLayout({ children }) {
     return (
         <html lang="tr" className={interFontFamily.className}>
-            <body>
-                <Header/>
-                <BackgroundImage/>
+            <body className = {styles.mainPage}>
+                
                 <div className="container">
-                    
+                    <Header/>
                     <main>{children}</main>
                     <Footer/>
                 </div>

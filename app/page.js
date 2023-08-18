@@ -1,9 +1,15 @@
 ﻿import React from 'react';
 
+import styles from "./styles.module.css";
+import Gallery from '@/components/gallery';
+
 
 function HomePage() {
     return (
-        <div></div>
+        <div>
+            <Gallery/>
+        </div>
+
     );
 }
 
