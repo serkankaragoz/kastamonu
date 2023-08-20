@@ -20,3 +20,11 @@ function Header() {
 }
 
 export default Header;
+
+/*
+                    <Link href='/nature'>Nature</Link>
+                    <Link href='/buildings'>Buildings</Link>
+                    <Link href='/macro'>Macro</Link>
+                    <Link href='/tree-inside-trees'>Tree inside trees</Link>
+                    <Link href='/mountain-strawberies'>Mountain strawberries</Link>
+*/
