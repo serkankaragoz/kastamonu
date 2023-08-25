@@ -30,7 +30,7 @@ function Gallery({ posts, category = ""}) {
 
 
   let tempPosts = posts
-  if(category !== ""){
+  if(category !== "" && category !== "default"){
     tempPosts = posts.filter(post => includesCategory(post, category))
   }
 
