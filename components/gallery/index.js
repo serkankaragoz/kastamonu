@@ -18,7 +18,27 @@ import Image from "next/image";
         </a>
 */
 
+<<<<<<< HEAD
 function Gallery({ posts }) {
+=======
+function includesCategory(post, category) {
+  return post.tags.includes(category);
+}
+
+
+function Gallery({ posts, category = ""}) {
+
+
+
+
+
+  let tempPosts = posts
+  if(category !== "" && category !== "default"){
+    tempPosts = posts.filter(post => includesCategory(post, category))
+  }
+
+
+>>>>>>> dev
   return (
     <div>
       <section className={styles.postList}> 
