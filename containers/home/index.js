@@ -4,12 +4,11 @@ import React from 'react'
 
 
 
-function HomeContainer({posts = [], category = ""}) {
+function HomeContainer({posts = []}) {
   return (
     <div>
     <Gallery
         posts = {posts}
-        category = {category}
     />
     </div>
   )
