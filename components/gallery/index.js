@@ -18,41 +18,23 @@ import Image from "next/image";
         </a>
 */
 
-function includesCategory(post, category) {
-  return post.tags.includes(category);
-}
-
-
-function Gallery({ posts, category = ""}) {
-
-
-
-
-
-  let tempPosts = posts
-  if(category !== ""){
-    tempPosts = posts.filter(post => includesCategory(post, category))
-  }
-
-
+function Gallery({ posts }) {
   return (
     <div>
       <section className={styles.postList}> 
-        {
-          tempPosts.map((post) => (
-            <a href="" class={styles.post}>
-              <figure className={styles.postImage}>
-                <Image
-                  unoptimized
-                  src={post.thumbnailPath}
-                  alt="Forest Image"
-                  fill
-                />
-              </figure>
-            </a>
-          ))
-        }
 
+        {posts.map((post) => (
+          <a href="" class={styles.post}>
+            <figure className={styles.postImage}>
+              <Image
+                unoptimized
+                src={post.thumbnailPath}
+                alt="Forest Image"
+                fill
+              />
+            </figure>
+          </a>
+        ))}
 
       </section>
     </div>

@@ -20,7 +20,7 @@
 
 .navigationMenu{
     display: flex;
-    gap: 24px;
+    gap: 48px;
     color: #fafafa;
     font-weight: 700;
     letter-spacing: 2px;
