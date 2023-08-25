@@ -18,9 +18,6 @@ import Image from "next/image";
         </a>
 */
 
-<<<<<<< HEAD
-function Gallery({ posts }) {
-=======
 function includesCategory(post, category) {
   return post.tags.includes(category);
 }
@@ -38,23 +35,24 @@ function Gallery({ posts, category = ""}) {
   }
 
 
->>>>>>> dev
   return (
     <div>
       <section className={styles.postList}> 
+        {
+          tempPosts.map((post) => (
+            <a href="" class={styles.post}>
+              <figure className={styles.postImage}>
+                <Image
+                  unoptimized
+                  src={post.thumbnailPath}
+                  alt="Forest Image"
+                  fill
+                />
+              </figure>
+            </a>
+          ))
+        }
 
-        {posts.map((post) => (
-          <a href="" class={styles.post}>
-            <figure className={styles.postImage}>
-              <Image
-                unoptimized
-                src={post.thumbnailPath}
-                alt="Forest Image"
-                fill
-              />
-            </figure>
-          </a>
-        ))}
 
       </section>
     </div>
