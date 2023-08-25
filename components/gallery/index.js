@@ -28,7 +28,7 @@ function Gallery({ posts }) {
             <figure className={styles.postImage}>
               <Image
                 unoptimized
-                src={post.imagePath}
+                src={post.thumbnailPath}
                 alt="Forest Image"
                 fill
               />
