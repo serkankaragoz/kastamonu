@@ -18,7 +18,7 @@ import Image from "next/image";
         </a>
 */
 
-function Gallery({ posts }) {
+function Gallery({posts}) {
   return (
     <div>
       <section className={styles.postList}> 
