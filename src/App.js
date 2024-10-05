@@ -11,8 +11,8 @@ function App() {
     <div>
       <BrowserRouter>
       <Routes>
-        <Route path='/pages/1'  element={<Page1/>}/>
-        <Route path='/pages/2'  element={<Page2/>}/>
+        <Route path='/page/1'  element={<Page1/>}/>
+        <Route path='/page/2'  element={<Page2/>}/>
         <Route path='/pages'  element={<DynamicPage/>}/>
       </Routes>
       </BrowserRouter>
