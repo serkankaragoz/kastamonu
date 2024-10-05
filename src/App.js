@@ -12,7 +12,7 @@ function App() {
    
       <Routes>
         <Route path='/'  element={<div>ALLAHIM GOOOOOOOOOOL</div>}/>
-        <Route path='/pag'  element={<div>HMMMMMMMMMMMMMMMMMMMMMMMM</div>}/>
+        <Route path='/pag'  element={<div>HMMMMMMMMMMMMMMMMMMMM</div>}/>
         <Route path='/page/1'  element={<Page1/>}/>
         <Route path='/page/2'  element={<Page2/>}/>
         <Route path='/pages'  element={<DynamicPage/>}/>
