@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/kastamonu/static/css/main.faf9342b.css",
-    "main.js": "/kastamonu/static/js/main.fb0df4b7.js",
+    "main.js": "/kastamonu/static/js/main.09f35741.js",
     "static/js/453.8ccc2587.chunk.js": "/kastamonu/static/js/453.8ccc2587.chunk.js",
     "static/media/logo.svg": "/kastamonu/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kastamonu/index.html",
     "main.faf9342b.css.map": "/kastamonu/static/css/main.faf9342b.css.map",
-    "main.fb0df4b7.js.map": "/kastamonu/static/js/main.fb0df4b7.js.map",
+    "main.09f35741.js.map": "/kastamonu/static/js/main.09f35741.js.map",
     "453.8ccc2587.chunk.js.map": "/kastamonu/static/js/453.8ccc2587.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.faf9342b.css",
-    "static/js/main.fb0df4b7.js"
+    "static/js/main.09f35741.js"
   ]
 }
