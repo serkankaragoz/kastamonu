@@ -2,21 +2,24 @@ import logo from './logo.svg';
 import './App.css';
 import Page1 from './components/Page1/Page1';
 import Page2 from './components/Page2/Page2';
-
+import { HashRouter } from 'react-router-dom';
 import {  Routes, Route } from "react-router-dom";
 import DynamicPage from './components/DynamicPage/DynamicPage';
 
 function App() {
   return (
     <div>
-   
-      <Routes>
+       <HashRouter>
+        <Routes>
         <Route path='/'  element={<div>ALLAHIM GOOOOOOOOOOL</div>}/>
-        <Route path='/pag'  element={<div>HMMMMMMMMMMMMMMMMMMMM</div>}/>
+        <Route path='/pag'  element={<div>HMMMMMMMMMMMMMMMMMMMMMMMM</div>}/>
         <Route path='/page/1'  element={<Page1/>}/>
         <Route path='/page/2'  element={<Page2/>}/>
         <Route path='/pages'  element={<DynamicPage/>}/>
       </Routes>
+
+       </HashRouter>
+      
     </div>
   );
 }
