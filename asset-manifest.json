@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kastamonu/static/css/main.f855e6bc.css",
-    "main.js": "/kastamonu/static/js/main.dd4bcd41.js",
+    "main.css": "/kastamonu/static/css/main.faf9342b.css",
+    "main.js": "/kastamonu/static/js/main.244dbf4b.js",
     "static/js/453.8ccc2587.chunk.js": "/kastamonu/static/js/453.8ccc2587.chunk.js",
     "static/media/logo.svg": "/kastamonu/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kastamonu/index.html",
-    "main.f855e6bc.css.map": "/kastamonu/static/css/main.f855e6bc.css.map",
-    "main.dd4bcd41.js.map": "/kastamonu/static/js/main.dd4bcd41.js.map",
+    "main.faf9342b.css.map": "/kastamonu/static/css/main.faf9342b.css.map",
+    "main.244dbf4b.js.map": "/kastamonu/static/js/main.244dbf4b.js.map",
     "453.8ccc2587.chunk.js.map": "/kastamonu/static/js/453.8ccc2587.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.dd4bcd41.js"
+    "static/css/main.faf9342b.css",
+    "static/js/main.244dbf4b.js"
   ]
 }
