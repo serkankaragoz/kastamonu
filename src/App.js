@@ -9,12 +9,15 @@ import DynamicPage from './components/DynamicPage/DynamicPage';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter>      
       <Routes>
+      <Route path=''  element={<div>ALLAHIM GOOOOOOOOOOL</div>}/>
+        <Route path='/'  element={<div>ALLAHIM GOOOOOOOOOOL</div>}/>
         <Route path='/page/1'  element={<Page1/>}/>
         <Route path='/page/2'  element={<Page2/>}/>
         <Route path='/pages'  element={<DynamicPage/>}/>
       </Routes>
+      
       </BrowserRouter>
 
 
