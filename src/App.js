@@ -1,8 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Page1 from './components/Page1/Page1';
+import Page2 from './components/Page2/Page2';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import DynamicPage from './components/DynamicPage/DynamicPage';
 
 function App() {
   return (
+    <div>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/pages'  element={<DynamicPage/>}/>
+      </Routes>
+      </BrowserRouter>
+
+
+    </div>
+  );
+}
+
+/*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +37,6 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
+*/
 
 export default App;
